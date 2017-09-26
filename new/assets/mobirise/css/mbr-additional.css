@@ -5,7 +5,7 @@
 
 
 body {
-  font-family: Rubik;
+  font-family: Open Sans;
   font-style: normal;
   line-height: 1.5;
 }
@@ -21,24 +21,31 @@ body {
   line-height: 1.6;
 }
 .display-1 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 4.25rem;
 }
 .display-2 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 3rem;
 }
 .display-4 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
+  letter-spacing: 2px;
 }
 .display-5 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 1.5rem;
+  line-height: 1.9rem;
 }
 .display-7 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
+}
+.display-8 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  padding: 10px;
 }
 /* ---- Fluid typography for mobile devices ---- */
 /* 1.4 - font scale ratio ( bootstrap == 1.42857 ) */
@@ -139,22 +146,22 @@ body {
 .btn-primary,
 .btn-primary:active,
 .btn-primary.active {
-  background-color: #149dcc;
-  border-color: #149dcc;
+  background-color: #ae0503;
+  border-color: #ae0503;
   color: #ffffff;
 }
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary.focus {
   color: #ffffff;
-  background-color: #0d6786;
-  border-color: #0d6786;
+  background-color: #ca1614;
+  border-color: #ca1614;
 }
 .btn-primary.disabled,
 .btn-primary:disabled {
   color: #ffffff !important;
-  background-color: #0d6786 !important;
-  border-color: #0d6786 !important;
+  background-color: #ca1614 !important;
+  border-color: #ca1614 !important;
 }
 .btn-secondary,
 .btn-secondary:active,
@@ -430,8 +437,8 @@ body {
 .btn-black-outline:focus,
 .btn-black-outline.focus {
   color: #ffffff;
-  background-color: #333333;
-  border-color: #333333;
+  background-color: #ac0603;
+  border-color: #ac0603;
 }
 .btn-black-outline.disabled,
 .btn-black-outline:disabled {
@@ -449,9 +456,9 @@ body {
 .btn-white-outline:hover,
 .btn-white-outline:focus,
 .btn-white-outline.focus {
-  color: #333333;
-  background-color: #ffffff;
-  border-color: #ffffff;
+  color: #ffffff;
+  background-color: #ac0603;
+  border-color: #ac0603;
 }
 .text-primary {
   color: #149dcc !important;
@@ -580,7 +587,7 @@ a:hover {
   font-style: normal;
 }
 .mbr-arrow a {
-  color: #ffffff;
+  color: #333333;
 }
 .form-control-label {
   position: relative;
@@ -657,8 +664,8 @@ pre {
   white-space: pre-wrap;
 }
 .navbar-caption {
-  font-family: 'Rubik', sans-serif;
-  font-size: 1rem;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.4rem;
 }
 .inactive {
   -webkit-user-select: none;
@@ -1403,7 +1410,7 @@ pre {
   }
 }
 .cid-qr9t6DbIS1 {
-  padding-top: 120px;
+  padding-top: 100px;
   padding-bottom: 0px;
   background-color: #ffffff;
 }
@@ -1412,7 +1419,7 @@ pre {
 }
 .cid-qt8nkmrZU1 {
   padding-top: 0px;
-  padding-bottom: 180px;
+  padding-bottom: 100px;
   background-color: #ffffff;
 }
 .cid-qr9ua0YHF3 {
@@ -1460,11 +1467,11 @@ pre {
 }
 .cid-qr9wp3MgBT {
   padding-top: 90px;
-  padding-bottom: 90px;
+  padding-bottom: 25px;
   background-color: #f9f9f9;
 }
 .cid-qr9wp3MgBT .mbr-section-subtitle {
-  color: #767676;
+  color: #b9b9b9;
 }
 .cid-qr9wp3MgBT .media-row {
   display: flex;
